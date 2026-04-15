@@ -28,12 +28,12 @@ class PassengerPage(BasePage):
     
 
     def enter_passenger_details(self):
-        self.send_keys(self.FIRST_NAME, "John")
-        self.send_keys(self.LAST_NAME, "Doe")
+        self.send_keys(self.FIRST_NAME, "Saranya")
+        self.send_keys(self.LAST_NAME, "Suku")
         self.send_keys(self.DOB, "01/01/1995")
-        self.send_keys(self.EMAIL, "test@gmail.com")
+        self.send_keys(self.EMAIL, "saranya@gmail.com")
         self.send_keys(self.PHONE, "9876543210")
-        self.send_keys(self.ADDRESS, "Hyderabad")
+        self.send_keys(self.ADDRESS, "Coimbatore")
         self.send_keys(self.NATIONALITY, "Indian")
         self.send_keys(self.POST_CODE, "500001")
         self.send_keys(self.PASSPORT_NO, "A1234567")
